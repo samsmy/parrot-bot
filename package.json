@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/samsmy/parrot-bot#readme",
   "dependencies": {
+    "request": "^2.88.0",
     "slackbots": "^1.2.0"
   }
 }
