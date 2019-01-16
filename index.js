@@ -5,7 +5,7 @@ var request = require("request");
 
 
 // create a bot
-const envKey = process.env.JOKES_BOT_TOKEN //"xoxb-524985330466-525189685397-UWwRkrjOWAw85BVMNJFGkKBG"//process.env.JOKES_BOT_TOKEN
+const envKey = process.env.JOKES_BOT_TOKEN
 var bot = new SlackBot({
   token: envKey,
   name: 'parrot Bot'
