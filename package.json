@@ -19,7 +19,7 @@
   "dependencies": {
     "request": "^2.88.0",
     "slackbots": "^1.2.0",
-    "lodash": ">=4.17.13",
+    "lodash": ">=4.17.19",
     "ws": ">=3.3.1"
   }
 }
