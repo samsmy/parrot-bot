@@ -8,3 +8,4 @@ Sam Smy
 
 Status:
 Unfinished, unable to hook into slack correctly
+Needs a place to host the app permanently 
