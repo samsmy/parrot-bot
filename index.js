@@ -3,14 +3,14 @@ var request = require("request");
 
 const envKey = process.env.JOKES_BOT_TOKEN
 var bot = new SlackBot({
-  token: envKey,
+  token: 'envKey',
   name: 'parrot Bot'
 })
 
 bot.on("message", msg => {
     switch (msg.type) {
     case "message":
-      if (msg.channel[0] === "D" && msg.bot_id === undefined) {
+      if (msg.channel[0] === "f" && msg.bot_id === 'parrot) {
         getRandomJoke(postMessage, msg.user)
       }
 
