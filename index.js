@@ -25,6 +25,7 @@ bot.on("message", msg => {
   }
 
   const getRandomJoke = (callback, user) => {
+    //always returns a joke in JSON, 
     return request("https://icanhazdadjoke.com/slack", (error, response) => {
       if (error) {
         console.log("Error: ", error)
